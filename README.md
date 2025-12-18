@@ -1,46 +1,45 @@
 # QA Foundations
 
-Este repositorio recoge los fundamentos de **Quality Assurance (QA)** aplicados al software, con un enfoque práctico y técnico.
+Repositorio con fundamentos prácticos de Quality Assurance (QA) aplicados al testing de software.
 
-El objetivo es demostrar cómo se aborda la calidad de una aplicación desde el punto de vista de un **QA Engineer Junior**, incluyendo:
-- Diseño de casos de prueba
-- Detección y documentación de errores
-- Pensamiento orientado a la prevención de fallos
-
-Este repositorio no contiene una aplicación completa, sino ejemplos reales de trabajo de QA sobre funcionalidades concretas de un sistema.
+El objetivo es mostrar cómo se aborda la validación de calidad de un sistema desde un punto de vista técnico, incluyendo diseño de casos de prueba, testing de APIs y documentación de defectos.
 
 ---
 
 ## ¿Qué es QA?
 
-**Quality Assurance (QA)** es el conjunto de prácticas destinadas a asegurar que un software cumple con los requisitos funcionales y de calidad antes de llegar al usuario final.
+Quality Assurance (QA) es el conjunto de prácticas destinadas a asegurar que un software cumple con los requisitos funcionales y técnicos antes de llegar a producción.
 
-QA no consiste únicamente en “probar”, sino en:
+QA no consiste únicamente en ejecutar pruebas, sino en:
+
 - Analizar riesgos
 - Definir qué debe probarse y por qué
-- Detectar defectos de forma temprana
-- Evitar regresiones en el sistema
+- Validar contratos (API, datos, comportamiento)
+- Detectar defectos reales
+- Evitar falsos positivos y regresiones
 
 ---
 
 ## Contenido del repositorio
 
-En este repositorio se incluirán:
+El repositorio incluye ejemplos prácticos de trabajo QA como:
 
-- Casos de prueba funcionales
-- Escenarios positivos y negativos
-- Ejemplos de bugs documentados correctamente
-- Análisis básico de riesgos sobre funcionalidades concretas
+- Casos de prueba manuales
+- Pruebas de API con Postman
+- Escenarios positivos, negativos y edge cases
+- Validación de códigos de estado, headers y estructura de respuesta
+- Ejemplo de bug documentado correctamente
+- Uso de Git y GitHub con una estructura y commits orientados a entorno profesional
 
-El sistema utilizado como referencia para las pruebas es una aplicación web de gestión económica familiar desarrollada previamente, utilizada aquí únicamente como **sistema bajo prueba**.
+Las pruebas manuales se basan en una funcionalidad concreta de una aplicación web utilizada como sistema bajo prueba.  
+Las pruebas de API se realizan sobre una API pública utilizada como entorno controlado para practicar validaciones HTTP.
 
 ---
 
 ## Enfoque
 
-El enfoque de este repositorio es:
 - Práctico
+- Técnico
 - Orientado a entornos reales de trabajo
 - Centrado en la calidad del producto y del proceso
 
-No se utilizan frameworks ni herramientas avanzadas en esta fase, ya que el objetivo es consolidar los **fundamentos del QA** antes de pasar a la automatización.
